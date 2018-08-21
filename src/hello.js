@@ -6,7 +6,7 @@ class hello extends Component {
     render() {
         return (
             <div>
-                <h1 className={css.title}>안녕하세요</h1>
+                <h1 className={css.title}>안녕하세요. Hello.</h1>
                 <img src={icon} />
             </div>
         );
