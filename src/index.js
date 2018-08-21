@@ -1,4 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Hello from './hello';
 
-ReactDOM.render(<div><h1>Hello</h1><img src="./images/icon.png" /></div>, document.getElementById('root'));
+ReactDOM.render(<Hello></Hello>, document.getElementById('root'));
